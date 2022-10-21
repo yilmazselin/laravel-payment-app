@@ -1,0 +1,43 @@
+.login_logo{
+width: 350px;
+height: 100px;
+margin: 0 auto;
+object-fit: cover;
+}
+
+.dashboard_logo{
+width: 240px;
+height: 31px;
+margin: 0 auto;
+object-fit: cover;
+}
+
+.content-page{
+float: left;
+width: calc(100% - 280px);
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th {
+    border-top-color: red;
+}
+.bg-aside{
+    background-color: #2c3e50;
+}
+.bg-aside a:not(.active) {
+    color: #fff;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+.bg-aside-button.active{
+    background-color: #95afc0!important;
+}
+.bg-aside a:hover {
+    color: #fff;
+    opacity: 1;
+}
+.bg-aside hr{
+    color: #fff;
+}
+body{
+    background-color: rgb(245 247 252);
+}
